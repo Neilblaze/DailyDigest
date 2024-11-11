@@ -1,0 +1,8 @@
+{
+    "apps": [{
+      "name": "daily-digest",
+      "script": "index.js",
+      "cron_restart": "0 18 * * *",
+      "autorestart": false
+    }]
+  }
